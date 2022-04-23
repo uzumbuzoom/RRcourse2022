@@ -2,7 +2,9 @@
 title: "RMarkdown - presentations"
 author: "Wojciech Hardy; Łukasz Nawaro"
 date: "4/7/2022"
-output: ioslides_presentation
+output: slidy_presentation
+footer: Edyty futer
+duration: 4
 ---
 
 ```{r setup, include=FALSE}
@@ -30,7 +32,7 @@ Adding a pipe `|` symbol in the slide title allows you to create subtitles.
 
 e.g. `Sections... | they have subtitles sometimes`
 
-## Display modes
+## Display modes | Edyta's own subtitle
 
 ioslides provides several shortcuts for handy display modes.
 
@@ -48,13 +50,18 @@ ioslides provides several shortcuts for handy display modes.
 
 > - to achieve this, write "`> -`" instead of just "`-`"
 
-## Manipulating the presentation size {.smaller}
+## Manipulating the presentation size {.smaller .build data-background=img/SUCCESS.png }
 
 - Use "`widescreen: true`" to toggle widescreen on by default.
 
 - Use "`smaller: true`" to keep the font size small.
 
 - Alternatively, you can put "`{.smaller}`" right after your slide header to apply this only locally (like in this slide)
+
+
+<div class="notes">Edyty notatki!!!</div>
+
+<div class="red">Edyta dodaje kolorowe linijki!!</div>
 
 ## Other options worth mentioning: {.smaller .build data-background=img/background.jpg}
 
